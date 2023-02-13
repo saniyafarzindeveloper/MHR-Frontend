@@ -1,0 +1,58 @@
+.about .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2rem;
+}
+
+.heading{
+    /* border: 2px solid black; */
+    width: 550px;
+    position: relative;
+    right: -550px;
+    /* padding-left: 300px; */
+    margin: 50px;
+    font-size: 40px;
+}
+
+.about{
+    border:  2px solid yellow;
+    width: 100%;
+   
+}
+
+
+
+
+.about .row .content h3{
+    color: var(--black);
+    text-shadow: var(--text-shadow);
+    font-size: 3rem;
+    line-height: 1.8;
+}
+
+.about .row .content p{
+    color: var(--light-color);
+    padding:1rem 0;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+
+
+.image img{
+    /* float: left; */
+    margin-left: -30px;
+    
+    
+} 
+
+.content{
+   
+    margin-left: 100px;
+    float: right;
+    border:  2px solid black; 
+    width: 700px;
+    
+
+}
