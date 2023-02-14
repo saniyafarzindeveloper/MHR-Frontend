@@ -11,6 +11,8 @@ import Patient from "./pages/NewPatient";
 import Footer from "./components/footer";
 import PatientNavbar from "./components/patientNavbar";
 import UplodedFile from "./pages/UplodedFile";
+import PatientDashBoard from "./pages/PatientDashBoard";
+import AccessHistory from "./pages/AccessHistory";
 function App() {
   return (
     <BrowserRouter>
@@ -25,6 +27,8 @@ function App() {
         <Route path="/newdoctor" element={<Doctor />}></Route>
         <Route path="/insurance" element={<Insurance />}></Route>
         <Route path="/uplodedFile" element={<UplodedFile />}></Route>
+        <Route path="/patientdashboard" element={<PatientDashBoard />}></Route>
+        <Route path="/accesshistory" element={<AccessHistory />}></Route>
       </Routes>
       <Footer />
     </BrowserRouter>

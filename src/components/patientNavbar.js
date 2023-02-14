@@ -28,10 +28,18 @@ const PatientNavbar = () => {
           }
         >
           <ul>
-            <button>
-              <NavLink to="/uplodedFile">View Uploded File</NavLink>
+            <button className="btnn">
+              <NavLink>View Uploded File</NavLink>
             </button>
-            <button>
+            <button className="btnn">
+              <NavLink to="/accessHistory">View Access History</NavLink>
+            </button>
+
+            <button className="btnn">
+              <NavLink to="/accessHistory">View Access Request</NavLink>
+            </button>
+
+            <button className="btnn">
               <NavLink to="/accessHistory">View Access History</NavLink>
             </button>
           </ul>

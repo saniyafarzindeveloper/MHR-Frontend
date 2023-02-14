@@ -4,7 +4,6 @@ import "./NewPateint.css";
 const newPatient = () => {
   return (
     <>
-      <PatientNavbar />
       <section id="registration-page">
         <form class="signup-form">
           {/* <!-- FORM HEADER --> */}
@@ -16,13 +15,13 @@ const newPatient = () => {
             {/* <!-- First name & Last name --> */}
             <div class="row">
               <div class="input-group">
-                <label>First name </label>
+                <label>Name </label>
                 <input type="text" placholder="Enter your first name" />
               </div>
-              <div class="input-group">
+              {/* <div class="input-group">
                 <label>Last name</label>
                 <input type="text" placholder="Enter your last name" />
-              </div>
+              </div> */}
             </div>
             {/* <!-- Email --> */}
             <div class="row">
@@ -33,12 +32,12 @@ const newPatient = () => {
             </div>
             <div class="row">
               <div class="input-group">
-                <label>Password </label>
-                <input type="password" placholder="Enter your your password" />
+                <label>Contact No. </label>
+                <input type="text" placholder="Enter your No." />
               </div>
               <div class="input-group">
-                <label>Confirm Password</label>
-                <input type="password" placholder="Enter your password again" />
+                <label>Alternate Contact No.</label>
+                <input type="text" placholder="Enter your no." />
               </div>
             </div>
             {/* <!-- Gender & Hobbies --> */}
@@ -141,7 +140,7 @@ const newPatient = () => {
             {/* <!--  Bio   --> */}
             <div class="row">
               <div class="input-group">
-                <label for="">Bio</label>
+                <label for="">Medical History</label>
                 {/* <textarea placeholder="Tell us more about ur past medical history">
                   {" "}
                 </textarea> */}
@@ -151,7 +150,9 @@ const newPatient = () => {
           </div>
           {/* <!--  FORM FOOTER   --> */}
           <div class="form-footer">
-            <button class="btn">Create</button>
+            <button class="btn">
+              <a href="/patientdashboard">Create</a>
+            </button>
           </div>
         </form>
       </section>
