@@ -1,27 +1,36 @@
 import React from "react";
-// AiFillDelete
+import { TiTick } from "react-icons/ti";
+import { AiFillEye } from "react-icons/ai";
 import { AiFillDelete } from "react-icons/ai";
 
-const AccessHistory = () => {
+const AccessRequest = () => {
   return (
     <div>
       <div class="table-box">
         <div class="table-row table-head">
           <div class="table-cell first-cell">
-            <p>Request Granted To:</p>
+            <p>Pending Request</p>
           </div>
           <div class="table-cell">
-            <p>Revoke</p>
+            <p>Accept Request</p>
+          </div>
+          <div class="table-cell last-cell">
+            <p>Delete Request</p>
           </div>
         </div>
 
         <div class="table-row">
           <div class="table-cell first-cell">
-            <p>Insurance Company</p>
+            <p>Raheja Hospital</p>
           </div>
           <div class="table-cell">
             <p>
               {" "}
+              <TiTick size={25} />
+            </p>
+          </div>
+          <div class="table-cell last-cell">
+            <p>
               <AiFillDelete />
             </p>
           </div>
@@ -29,11 +38,16 @@ const AccessHistory = () => {
 
         <div class="table-row">
           <div class="table-cell first-cell">
-            <p>Insurance Company</p>
+            <p>Raheja Hospital</p>
           </div>
           <div class="table-cell">
             <p>
               {" "}
+              <TiTick size={25} />{" "}
+            </p>
+          </div>
+          <div class="table-cell last-cell">
+            <p>
               <AiFillDelete />
             </p>
           </div>
@@ -41,11 +55,16 @@ const AccessHistory = () => {
 
         <div class="table-row">
           <div class="table-cell first-cell">
-            <p>Insurance Company</p>
+            <p>Raheja Hospital</p>
           </div>
           <div class="table-cell">
             <p>
               {" "}
+              <TiTick size={25} />
+            </p>
+          </div>
+          <div class="table-cell last-cell">
+            <p>
               <AiFillDelete />
             </p>
           </div>
@@ -53,11 +72,16 @@ const AccessHistory = () => {
 
         <div class="table-row">
           <div class="table-cell first-cell">
-            <p>Insurance Company</p>
+            <p>Raheja Hospital</p>
           </div>
           <div class="table-cell">
             <p>
               {" "}
+              <TiTick size={25} />
+            </p>
+          </div>
+          <div class="table-cell last-cell">
+            <p>
               <AiFillDelete />
             </p>
           </div>
@@ -65,11 +89,16 @@ const AccessHistory = () => {
 
         <div class="table-row">
           <div class="table-cell first-cell">
-            <p>Insurance Company</p>
+            <p>Raheja Hospital</p>
           </div>
           <div class="table-cell">
             <p>
               {" "}
+              <TiTick size={25} />
+            </p>
+          </div>
+          <div class="table-cell last-cell">
+            <p>
               <AiFillDelete />
             </p>
           </div>
@@ -79,4 +108,4 @@ const AccessHistory = () => {
   );
 };
 
-export default AccessHistory;
+export default AccessRequest;

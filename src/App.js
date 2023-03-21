@@ -7,12 +7,16 @@ import AboutUs from "./pages/AboutUs";
 import Services from "./pages/Services";
 import Insurance from "./pages/Insurance";
 import Doctor from "./pages/newDoctor";
-import Patient from "./pages/NewPatient";
+import Patient from "./pages/newPatient";
 import Footer from "./components/footer";
 import PatientNavbar from "./components/patientNavbar";
 import UplodedFile from "./pages/UplodedFile";
 import PatientDashBoard from "./pages/PatientDashBoard";
 import AccessHistory from "./pages/AccessHistory";
+import AccessRequest from "./pages/AccessRequest";
+// import UploadFiles from "./pages/UploadFiles";
+// import UplodedFile from "./pages/UplodedFile";
+
 function App() {
   return (
     <BrowserRouter>
@@ -29,6 +33,8 @@ function App() {
         <Route path="/uplodedFile" element={<UplodedFile />}></Route>
         <Route path="/patientdashboard" element={<PatientDashBoard />}></Route>
         <Route path="/accesshistory" element={<AccessHistory />}></Route>
+        <Route path="/accessrequest" element={<AccessRequest />}></Route>
+        {/* <Route path="/uploadfiles" element={<UploadFiles />}></Route> */}
       </Routes>
       <Footer />
     </BrowserRouter>

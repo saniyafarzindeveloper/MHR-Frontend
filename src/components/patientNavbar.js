@@ -14,45 +14,31 @@ const PatientNavbar = () => {
   return (
     <>
       <nav className="main-nav">
-        {/* 1st logo part  */}
-        <div className="logo">
-          {/* <h2>
-            <span>New Patient Login</span>
-          </h2> */}
+        <div className="  mobile-menu-link">
+          <div className="styleit">
+            <ul
+              className="ul-style"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                width: "800px",
+                marginLeft: "330px",
+              }}
+            >
+              <button className="btnn">
+                <NavLink>View Uploded File</NavLink>
+              </button>
+              <button className="btnn">
+                <NavLink to="/accessHistory">View Access History</NavLink>
+              </button>
+
+              <button className="btnn">
+                <NavLink to="/accessrequest">View Access Request</NavLink>
+              </button>
+            </ul>
+          </div>
         </div>
-
-        {/* 2nd menu part  */}
-        <div
-          className={
-            showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
-          }
-        >
-          <ul>
-            <button className="btnn">
-              <NavLink>View Uploded File</NavLink>
-            </button>
-            <button className="btnn">
-              <NavLink to="/accessHistory">View Access History</NavLink>
-            </button>
-
-            <button className="btnn">
-              <NavLink to="/accessHistory">View Access Request</NavLink>
-            </button>
-
-            <button className="btnn">
-              <NavLink to="/accessHistory">View Access History</NavLink>
-            </button>
-          </ul>
-        </div>
-
-        {/* 3rd social media links */}
       </nav>
-
-      {/* hero section  */}
-      {/* <section className="hero-section">
-        <p>Welcome to </p>
-        <h1>Thapa Technical</h1>
-      </section> */}
     </>
   );
 };
