@@ -5,99 +5,99 @@ import { AiFillDelete } from "react-icons/ai";
 
 const AccessRequest = () => {
   return (
-    <div>
-      <div class="table-box">
-        <div class="table-row table-head">
-          <div class="table-cell first-cell">
+    <div className="acc-req-wrapper" >
+      <div className="table-box">
+        <div className="table-row table-head">
+          <div className="table-cell first-cell">
             <p>Pending Request</p>
           </div>
-          <div class="table-cell">
+          <div className="table-cell">
             <p>Accept Request</p>
           </div>
-          <div class="table-cell last-cell">
+          <div className="table-cell last-cell">
             <p>Delete Request</p>
           </div>
         </div>
 
-        <div class="table-row">
-          <div class="table-cell first-cell">
+        <div className="table-row">
+          <div className="table-cell first-cell">
             <p>Raheja Hospital</p>
           </div>
-          <div class="table-cell">
+          <div className="table-cell">
             <p>
               {" "}
               <TiTick size={25} />
             </p>
           </div>
-          <div class="table-cell last-cell">
+          <div className="table-cell last-cell">
             <p>
               <AiFillDelete />
             </p>
           </div>
         </div>
 
-        <div class="table-row">
-          <div class="table-cell first-cell">
+        <div className="table-row">
+          <div className="table-cell first-cell">
             <p>Raheja Hospital</p>
           </div>
-          <div class="table-cell">
+          <div className="table-cell">
             <p>
               {" "}
               <TiTick size={25} />{" "}
             </p>
           </div>
-          <div class="table-cell last-cell">
+          <div className="table-cell last-cell">
             <p>
               <AiFillDelete />
             </p>
           </div>
         </div>
 
-        <div class="table-row">
-          <div class="table-cell first-cell">
+        <div className="table-row">
+          <div className="table-cell first-cell">
             <p>Raheja Hospital</p>
           </div>
-          <div class="table-cell">
+          <div className="table-cell">
             <p>
               {" "}
               <TiTick size={25} />
             </p>
           </div>
-          <div class="table-cell last-cell">
+          <div className="table-cell last-cell">
             <p>
               <AiFillDelete />
             </p>
           </div>
         </div>
 
-        <div class="table-row">
-          <div class="table-cell first-cell">
+        <div className="table-row">
+          <div className="table-cell first-cell">
             <p>Raheja Hospital</p>
           </div>
-          <div class="table-cell">
+          <div className="table-cell">
             <p>
               {" "}
               <TiTick size={25} />
             </p>
           </div>
-          <div class="table-cell last-cell">
+          <div className="table-cell last-cell">
             <p>
               <AiFillDelete />
             </p>
           </div>
         </div>
 
-        <div class="table-row">
-          <div class="table-cell first-cell">
+        <div className="table-row">
+          <div className="table-cell first-cell">
             <p>Raheja Hospital</p>
           </div>
-          <div class="table-cell">
+          <div className="table-cell">
             <p>
               {" "}
               <TiTick size={25} />
             </p>
           </div>
-          <div class="table-cell last-cell">
+          <div className="table-cell last-cell">
             <p>
               <AiFillDelete />
             </p>

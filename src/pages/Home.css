@@ -3,8 +3,9 @@
     height: 100%;
     /* background-image: url(../images/istockphoto-1369987284-170667a.jpg); */
     background-image: url("https://i0.wp.com/salienthealthcare.com/wp-content/uploads/2020/03/AdobeStock_133621255-scaled.jpeg?ssl=1");
+    /* background-image: url("https://i.pinimg.com/564x/e8/86/c7/e886c7e4e183d639f1ce23f3bee39822.jpg"); */
     background-size: cover;
-   color: black;
+   /* color: black; */
    /* border: 2px solid blue; */
 }
 
@@ -12,15 +13,16 @@
 .h1{
     color: var(--black);
     text-shadow: var(--text-shadow);
-    font-size: 3rem;
+    font-size: 36px;
     line-height: 1.8;
 }
 
 .details{
     width: 600px;
-    color: var(--light-color);
+    /* color: var(--light-color); */
+    text-align: justify;
     padding:1rem 0;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.8;
 }
 
@@ -42,27 +44,31 @@ button{
   width: 650px;
   position: relative;
   top: 200px;
-  color: whitesmoke;
-  margin-left: 50px;
+  color: white;
+  left: 120px;
+  /* margin-left: 50px; */
 }
 
 
-.reg {
-    color: white;
-    background-color: rgba(104, 85, 224, 1);
+.know-more-btn {
+  width: 170px;
+  height: 50px;
+  font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    /* background-color: rgba(104, 85, 224, 1); */
   }
   
-  .log {
+  /* .log {
     color: rgb(104, 85, 224);
     background-color: rgba(255, 255, 255, 1);
     border: 1px solid rgba(104, 85, 224, 1);
-  }
+  } */
   
-  .reg:hover {
-    color: rgb(24, 23, 23);
-    
+  .know-more-btn:hover {
+    /* color: rgb(24, 23, 23);
     box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
-    background-color: rgb(236, 189, 245);
+    color:rgb(12, 48, 81); */
   }
   
   

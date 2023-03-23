@@ -1,0 +1,47 @@
+.hos-wrapper{
+    width: 100%;
+    height: 90vh;
+}
+
+.hosp-wlc{
+    position: relative;
+    top: 120px;
+    left: 17px;
+    font-size: 40px;
+}
+
+.hosp-name{
+    position: relative;
+    top: 125px;
+    left: 27px;
+    font-size: 25px;
+    color: rgb(0,78,118);
+}
+
+.hosp-address{
+    position: relative;
+    top: 130px;
+    left: 27px;
+    font-size: 25px;
+    color: rgb(0,78,118);
+}
+
+.hosp-contact{
+    position: relative;
+    top: 135px;
+    left: 27px;
+    font-size: 25px;
+    color: rgb(0,78,118);
+}
+
+.hosp-prof-btn{
+    position: relative;
+    top: 140px;
+    left: 27px;
+    background-color: black;
+    font-size: 17px;
+}
+
+.hosp-prof-btn a{
+    color: white;
+}

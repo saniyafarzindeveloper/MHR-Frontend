@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import AboutUs from "./AboutUs";
 import Service from "./Services";
+import { HashLink } from "react-router-hash-link";
 const Home = () => {
   function loginalert() {
     alert("Redirecting to login page");
@@ -19,18 +20,22 @@ const Home = () => {
         }}
       >
         <div className="contentt">
-          <h1 className="h1">Virtual healthcare for you</h1>
+          <h1 className="h1">Your health, your data, your control.</h1>
           <p className="details">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel illum
-            doloribus error voluptatum. Facilis, numquam? Minus aut harum,
-            dolore quas in ipsam ut perferendis Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Vel illum doloribus error voluptatum.
-            Facilis, numquam? Minus aut harum, dolore quas in ipsam ut
-            perferendis
+          Welcome to Medical Health Record, a platform dedicated to helping you manage your health information efficiently and securely. We understand that keeping track of medical records and personal health information can be challenging, and that's why we've created a solution that simplifies the process for you.
           </p>
 
-          <button onClick={signalert} className="reg">
-            LogIn
+          <button
+            onClick={() =>
+              window.scrollBy({
+                top: 700,
+                left: 0,
+                behavior: "smooth",
+              })
+            }
+            className="know-more-btn"
+          >
+            Know more
           </button>
         </div>
       </div>

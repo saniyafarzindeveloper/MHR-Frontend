@@ -8,12 +8,12 @@
   }
   
   .services-submenu li {
-    background: rgb(0, 212, 212);
+    background: rgb(0,78,118);
     cursor: pointer;
   }
   
   .services-submenu li a:hover {
-    background: rgb(0, 175, 175);
+    background: rgb(0,78,118);
   }
   
   .services-submenu.clicked {

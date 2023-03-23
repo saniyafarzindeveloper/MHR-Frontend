@@ -12,12 +12,12 @@ html, body {
 }
 
 #registration-page {
-    height:100%;
-    background:#78a7ba; 
+    height:90vh;
+    background:#cbe8fd; 
     display:flex;
     justify-content: center;
     align-items: center;
-    overflow:scroll;
+    overflow:visible;
 }
 
 .signup-form  {
@@ -26,8 +26,9 @@ html, body {
     border-radius: 10px;
     background-color: #EFF0F1;
     border: 1px solid #999;
-    margin-top: auto;
-    margin-bottom:  auto;
+    margin-top: 70px;
+    /* margin-top: auto; */
+    /* margin-bottom:  auto; */
   }
   
 /* FORM HEADER */
@@ -83,7 +84,7 @@ html, body {
 
   .range-group label {
     margin-left:10px;
-    background-color: #1BBA93;
+    background-color:rgb(0,78,118);
     color:white;
     border-radius: 5px;
     padding:5px;
@@ -110,20 +111,22 @@ html, body {
     padding:10px;
 }
 
-.btn {
+.patient-btn {
     padding:10px 20px;
-    background-color: #1BBA93;
+    background-color: black;
     font-size:17px;
     border:none;
     border-radius:5px;
-    color:#bcf5e7;
+    color:white;
     cursor:pointer;
  }
-
+.patient-btn a{
+  color: white;
+}
  /* INPUT*/
 
  label {
-  color:#1BBA93;
+  color:rgb(0,78,118);
   font-size: 17px;
   font-weight: 500;
 }
@@ -136,8 +139,7 @@ input[type="number"],
 select,
 textarea  {
 width:100%;
-
-font-size: 18px;
+font-size: 20px;
 height: 34px;
 padding-left: 10px;
 padding-right: 10px;

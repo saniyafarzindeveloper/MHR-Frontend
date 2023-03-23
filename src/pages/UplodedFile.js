@@ -4,8 +4,13 @@ import "./UplodedFile.css";
 import { AiFillEye } from "react-icons/ai";
 const UplodedFile = () => {
   return (
-    <div>
-      <button className="button">Upload New Files</button>
+    <div className="uploaded-files-wrapper">
+      <div className="input-file-wrapper" >
+        <label className="label-file" for="myfile">
+          Upload a new file
+        </label>
+        <input type="file" className="upload-new-file" multiple />
+      </div>
 
       <div class="table-box">
         <div class="table-row table-head">
@@ -89,6 +94,7 @@ const UplodedFile = () => {
             </p>{" "}
           </div>
         </div>
+        {/* <button type="file" className="button">Upload New Files</button> */}
       </div>
     </div>
   );

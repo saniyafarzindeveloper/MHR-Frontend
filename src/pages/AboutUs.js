@@ -1,6 +1,9 @@
 import React from "react";
 import "./About.css";
-import aboutimg from "../images/about.jpg";
+// import aboutimg from "../images/about.jpg";
+//import aboutUs from "../images/aboutUs.jpg"
+import au from "../images/au.jpg"
+import ehr from "../images/ehr.jpg"
 // import { mainpic as pic } from "../images/about-img.svg";
 
 const About = () => {
@@ -9,33 +12,31 @@ const About = () => {
       <section className="about" id="about">
         <h1 className="heading">About Us</h1>
 
+        {/* parent div - row */}
         <div className="row">
           <div className="image">
-            <img src={aboutimg} alt="" width="650" height="550" />
-            {/* <img
-              // src={require("../images/about-img.svg")}
-              alt=""
-              
-            /> */}
+            <img src={ehr} alt="" width="700" height="550" />
           </div>
 
-          <div className="content">
-            <h3>we take care of your healthy life</h3>
+          <div className="about-content">
+            <h3 className="about-tag-line">Keeping your health on track.</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
-              ducimus, quod ex cupiditate ullam in assumenda maiores et culpa
-              odit tempora ipsam qui, quisquam quis facere iste fuga, minus
-              nesciunt.
+              We take security and privacy very seriously, and we have
+              implemented rigorous protocols to ensure that your information is
+              kept safe.
             </p>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus
-              vero ipsam laborum porro voluptates voluptatibus a nihil
-              temporibus deserunt vel?
+              Our mission is to empower patients with the tools they need to
+              take control of their health. Whether you're managing a chronic
+              condition, undergoing treatment, or simply want to keep track of
+              your health and wellness, Medical Health Record has got you
+              covered.
+              
             </p>
-            <a href="#" className="btn">
+            {/* <a href="#" className="btn">
               {" "}
               learn more <span className="fas fa-chevron-right"></span>{" "}
-            </a>
+            </a> */}
           </div>
         </div>
       </section>

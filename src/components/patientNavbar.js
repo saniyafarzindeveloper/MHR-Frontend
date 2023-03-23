@@ -21,7 +21,7 @@ const PatientNavbar = () => {
               style={{
                 display: "flex",
                 alignItems: "center",
-                width: "800px",
+                width: "700px",
                 marginLeft: "330px",
               }}
             >

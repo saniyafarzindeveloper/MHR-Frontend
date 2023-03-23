@@ -1,32 +1,27 @@
+// import Services from "../pages/Services";
+
 export const navItems = [
   {
     id: 1,
     title: "Home",
-    path: "./",
+    path: "./#",
     cName: "nav-item",
   },
-
-  // {
-  //   id: 2,
-  //   title: "Products",
-  //   path: "./products",
-  //   cName: "nav-item",
-  // },
+  {
+    id: 2,
+    title: "About Us",
+    path: "./#",
+    cName: "nav-item",
+  },
   {
     id: 3,
-    title: "About Us",
-    path: "./",
+    title: "Services",
+    path: "/#",
     cName: "nav-item",
   },
   {
     id: 4,
-    title: "Services",
-    path: "./",
-    cName: "nav-item",
-  },
-  {
-    id: 5,
-    title: "New User",
+    title: "Sign Up",
     path: "./#",
     cName: "nav-item",
   },
@@ -35,26 +30,26 @@ export const navItems = [
 export const serviceDropdown = [
   {
     id: 1,
-    title: "New Patient",
+    title: "Patient",
     path: "./newpatient",
     cName: "submenu-item",
   },
   {
     id: 2,
-    title: "New Doctor",
+    title: "Doctor",
     path: "./newdoctor",
     cName: "submenu-item",
   },
   {
     id: 3,
-    title: "Insurance Comp",
+    title: "Insurance Company",
     path: "./insurance",
     cName: "submenu-item",
   },
-  //   {
-  //     id: 4,
-  //     title: "Development",
-  //     path: "./development",
-  //     cName: "submenu-item",
-  //   },
+  {
+    id: 4,
+    title: "Hospital",
+    path: "./hospital",
+    cName: "submenu-item", 
+  }
 ];

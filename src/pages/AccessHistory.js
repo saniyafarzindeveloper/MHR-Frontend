@@ -1,25 +1,25 @@
 import React from "react";
-// AiFillDelete
+// import '../pages/accessHistory.css'
 import { AiFillDelete } from "react-icons/ai";
 
 const AccessHistory = () => {
   return (
-    <div>
-      <div class="table-box">
-        <div class="table-row table-head">
-          <div class="table-cell first-cell">
-            <p>Request Granted To:</p>
+    <div className="acc-hist-wrapper" >
+      <div className="table-box">
+        <div className="table-row table-head">
+          <div className="table-cell first-cell">
+            <p>Request granted</p>
           </div>
-          <div class="table-cell">
-            <p>Revoke</p>
+          <div className="table-cell">
+            <p>Revoke access</p>
           </div>
         </div>
 
-        <div class="table-row">
-          <div class="table-cell first-cell">
+        <div className="table-row">
+          <div className="table-cell first-cell">
             <p>Insurance Company</p>
           </div>
-          <div class="table-cell">
+          <div className="table-cell">
             <p>
               {" "}
               <AiFillDelete />
@@ -27,11 +27,11 @@ const AccessHistory = () => {
           </div>
         </div>
 
-        <div class="table-row">
-          <div class="table-cell first-cell">
-            <p>Insurance Company</p>
+        <div className="table-row">
+          <div className="table-cell first-cell">
+            <p>JJ Hospital</p>
           </div>
-          <div class="table-cell">
+          <div className="table-cell">
             <p>
               {" "}
               <AiFillDelete />
@@ -39,11 +39,11 @@ const AccessHistory = () => {
           </div>
         </div>
 
-        <div class="table-row">
-          <div class="table-cell first-cell">
-            <p>Insurance Company</p>
+        <div className="table-row">
+          <div className="table-cell first-cell">
+            <p>Dr. Shekhani</p>
           </div>
-          <div class="table-cell">
+          <div className="table-cell">
             <p>
               {" "}
               <AiFillDelete />
@@ -51,11 +51,11 @@ const AccessHistory = () => {
           </div>
         </div>
 
-        <div class="table-row">
-          <div class="table-cell first-cell">
+        <div className="table-row">
+          <div className="table-cell first-cell">
             <p>Insurance Company</p>
           </div>
-          <div class="table-cell">
+          <div className="table-cell">
             <p>
               {" "}
               <AiFillDelete />
@@ -63,11 +63,11 @@ const AccessHistory = () => {
           </div>
         </div>
 
-        <div class="table-row">
-          <div class="table-cell first-cell">
-            <p>Insurance Company</p>
+        <div className="table-row">
+          <div className="table-cell first-cell">
+            <p>LIC</p>
           </div>
-          <div class="table-cell">
+          <div className="table-cell">
             <p>
               {" "}
               <AiFillDelete />
