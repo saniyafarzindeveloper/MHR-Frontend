@@ -11,12 +11,8 @@
     transition: 0.3s all ease-out;
     cursor: pointer;
   }
-  
-  .nav-button:hover {
-    color: black;
-    background: white;
-  }
 
+  
   .login-btn-style{
     color: white;
   }
